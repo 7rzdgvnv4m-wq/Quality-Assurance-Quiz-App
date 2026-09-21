@@ -1,0 +1,10 @@
+{
+  "name": "FOST 6006 Study Quest",
+  "short_name": "FOST 6006",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff7fc",
+  "theme_color": "#d98ab6",
+  "description": "Interactive FOST 6006 Food Quality Assurance study quiz.",
+  "icons": []
+}
