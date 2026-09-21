@@ -30,13 +30,7 @@ h1{font-size:clamp(28px,6vw,48px);line-height:1.02;margin:0 0 9px;letter-spacing
 footer{text-align:center;color:var(--muted);font-size:11px;padding:20px}
 @media(max-width:650px){.stats{grid-template-columns:repeat(2,1fr)}.menu{grid-template-columns:1fr}.q{font-size:19px}.panel{padding:17px}}
 </style>
-
-<link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#d98ab6">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="FOST 6006">
-
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
 </head>
 <body>
 <div class="wrap">
@@ -256,11 +250,4 @@ function goHome(){$("result").classList.add("hidden");$("quiz").classList.add("h
 function restart(){start(mode)}
 updateStats();
 </script>
-
-<script>
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js"));
-}
-</script>
-
 </body></html>

@@ -6,5 +6,18 @@
   "background_color": "#fff7fc",
   "theme_color": "#d98ab6",
   "description": "Interactive FOST 6006 Food Quality Assurance study quiz.",
-  "icons": []
+  "icons": [
+    {
+      "src": "./FOST6006_icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
